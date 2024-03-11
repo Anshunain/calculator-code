@@ -1,24 +1,15 @@
-print("Try programiz.pro")
-# Function to perform addition
 def add(x, y):
     return x + y
-
-# Function to perform subtraction
 def subtract(x, y):
     return x - y
-
-# Function to perform multiplication
 def multiply(x, y):
     return x * y
-
-# Function to perform division
 def divide(x, y):
     if y == 0:
         return "Error! Division by zero."
     else:
         return x / y
 
-# Function to display calculation history
 def display_history(history):
     if history:
         print("Calculation History:")
@@ -27,7 +18,6 @@ def display_history(history):
     else:
         print("Calculation History is empty.")
 
-# Main function to run the calculator app
 def main():
     history = []  # Empty list to store calculation history
     while True:
@@ -39,7 +29,7 @@ def main():
         print("5. Show History")
         print("6. Exit")
 
-        choice = input("Enter your choice: ")
+        choice = input("what yoy wanna try: ")
 
         if choice == '6':
             print("Thank you for using the calculator. Goodbye!")
